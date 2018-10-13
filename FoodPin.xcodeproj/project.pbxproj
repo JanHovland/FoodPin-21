@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1174C392171D04000A47346 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1174C382171D04000A47346 /* Onboarding.storyboard */; };
 		D121F67A216B4EC900B3866D /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D121F678216B4EC900B3866D /* FoodPin.xcdatamodeld */; };
 		D146D841215E799A008A8E8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D146D840215E799A008A8E8C /* MapKit.framework */; };
 		D146D843215E7E53008A8E8C /* RestaurantDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146D842215E7E53008A8E8C /* RestaurantDetailSeparatorCell.swift */; };
@@ -41,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1174C372171CDA000A47346 /* FoodPin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodPin.entitlements; sourceTree = "<group>"; };
+		D1174C382171D04000A47346 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Onboarding.storyboard; path = ../../../Onboarding.storyboard; sourceTree = "<group>"; };
 		D121F679216B4EC900B3866D /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
 		D146D840215E799A008A8E8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D146D842215E7E53008A8E8C /* RestaurantDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailSeparatorCell.swift; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 			children = (
 				F4BD89CA1F4E961C00588D6D /* Main.storyboard */,
 				F4BD89CF1F4E961C00588D6D /* LaunchScreen.storyboard */,
+				D1174C382171D04000A47346 /* Onboarding.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -169,6 +173,7 @@
 		F4BD89C51F4E961C00588D6D /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				D1174C372171CDA000A47346 /* FoodPin.entitlements */,
 				DB160A442153FB25007C029E /* Extensions */,
 				F4D680331F615643008AA4F1 /* Resources */,
 				F4A058701F59579200D6288C /* Storyboard */,
@@ -247,6 +252,9 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
 						};
 					};
 				};
@@ -285,6 +293,7 @@
 				F4D680551F61713C008AA4F1 /* Rubik-Black.ttf in Resources */,
 				F4D680581F61713C008AA4F1 /* Rubik-BoldItalic.ttf in Resources */,
 				F4D6805E1F61713C008AA4F1 /* Rubik-Regular.ttf in Resources */,
+				D1174C392171D04000A47346 /* Onboarding.storyboard in Resources */,
 				F4D6805C1F61713C008AA4F1 /* Rubik-Medium.ttf in Resources */,
 				F4BD89CC1F4E961C00588D6D /* Main.storyboard in Resources */,
 			);
