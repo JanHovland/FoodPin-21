@@ -689,7 +689,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="New Restaurant" id="6do-g5-wgP">
-                        <barButtonItem key="leftBarButtonItem" image="close" id="q5J-Bh-ZdL">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="q5J-Bh-ZdL">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="HX9-mg-CLR" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="1iY-v8-OGO"/>
@@ -785,7 +785,6 @@
     </scenes>
     <resources>
         <image name="angry" width="78" height="103"/>
-        <image name="close" width="16" height="16"/>
         <image name="cool" width="78" height="83"/>
         <image name="cross" width="33" height="32"/>
         <image name="empty" width="310" height="372"/>
