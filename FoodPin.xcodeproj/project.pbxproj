@@ -16,6 +16,9 @@
 		D16DF46621677EB400E81AE4 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DF46521677EB400E81AE4 /* RoundedTextField.swift */; };
 		D1B44FDB2164ED410080A12C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B44FDA2164ED410080A12C /* ReviewViewController.swift */; };
 		D1BBC19A216A1EE900D88574 /* NewRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BBC199216A1EE900D88574 /* NewRestaurantController.swift */; };
+		D1C1E4E12173284E00EADAB8 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1E4E02173284E00EADAB8 /* WalkthroughContentViewController.swift */; };
+		D1C1E4E321733C7E00EADAB8 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1E4E221733C7E00EADAB8 /* WalkthroughPageViewController.swift */; };
+		D1C1E4E52173467500EADAB8 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1E4E42173467500EADAB8 /* WalkthroughViewController.swift */; };
 		DB160A462153FB89007C029E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB160A452153FB89007C029E /* UIColor+Ext.swift */; };
 		DB160A482153FF28007C029E /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB160A472153FF28007C029E /* UINavigationController+Ext.swift */; };
 		F40AF4A21F6278B400943F02 /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AF4A11F6278B400943F02 /* RestaurantDetailHeaderView.swift */; };
@@ -52,6 +55,9 @@
 		D16DF46521677EB400E81AE4 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		D1B44FDA2164ED410080A12C /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		D1BBC199216A1EE900D88574 /* NewRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantController.swift; sourceTree = "<group>"; };
+		D1C1E4E02173284E00EADAB8 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		D1C1E4E221733C7E00EADAB8 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		D1C1E4E42173467500EADAB8 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		DB160A452153FB89007C029E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		DB160A472153FF28007C029E /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
 		F40AF4A11F6278B400943F02 /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 				D148EB642164C26F00F6D486 /* MapViewController.swift */,
 				D1B44FDA2164ED410080A12C /* ReviewViewController.swift */,
 				D1BBC199216A1EE900D88574 /* NewRestaurantController.swift */,
+				D1C1E4E02173284E00EADAB8 /* WalkthroughContentViewController.swift */,
+				D1C1E4E221733C7E00EADAB8 /* WalkthroughPageViewController.swift */,
+				D1C1E4E42173467500EADAB8 /* WalkthroughViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,14 +324,17 @@
 				F4BD89DB1F4EA9FC00588D6D /* RestaurantTableViewCell.swift in Sources */,
 				D121F67A216B4EC900B3866D /* FoodPin.xcdatamodeld in Sources */,
 				D148EB652164C26F00F6D486 /* MapViewController.swift in Sources */,
+				D1C1E4E52173467500EADAB8 /* WalkthroughViewController.swift in Sources */,
 				DB160A482153FF28007C029E /* UINavigationController+Ext.swift in Sources */,
 				F4E705EE1F63930B00635504 /* RestaurantDetailIconTextCell.swift in Sources */,
 				DB160A462153FB89007C029E /* UIColor+Ext.swift in Sources */,
 				F4A0586A1F58165D00D6288C /* RestaurantDetailViewController.swift in Sources */,
 				D146D843215E7E53008A8E8C /* RestaurantDetailSeparatorCell.swift in Sources */,
 				D16DF46621677EB400E81AE4 /* RoundedTextField.swift in Sources */,
+				D1C1E4E12173284E00EADAB8 /* WalkthroughContentViewController.swift in Sources */,
 				F4BD89C71F4E961C00588D6D /* AppDelegate.swift in Sources */,
 				D1BBC19A216A1EE900D88574 /* NewRestaurantController.swift in Sources */,
+				D1C1E4E321733C7E00EADAB8 /* WalkthroughPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
