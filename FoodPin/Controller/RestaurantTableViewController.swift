@@ -31,6 +31,9 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Dersom "WalkThrough" alltid skal vises i starten:
+        // UserDefaults.standard.set(false, forKey: "hasViewedWalkthrough")
+        
         tableView.cellLayoutMarginsFollowReadableWidth = true
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -85,9 +88,15 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
+        if UserDefaults.standard.bool(forKey: "hasViewedWalkthrough") {
+            return
+        }
+        
         let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
         if let walkthroughViewController = storyboard.instantiateViewController(withIdentifier: "WalkthroughViewController") as?
             WalkthroughViewController {
+            
             present(walkthroughViewController, animated: true, completion: nil)
         }
     }
