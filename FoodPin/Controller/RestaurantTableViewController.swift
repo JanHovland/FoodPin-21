@@ -32,7 +32,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         super.viewDidLoad()
         
         // Dersom "WalkThrough" alltid skal vises i starten:
-        // UserDefaults.standard.set(false, forKey: "hasViewedWalkthrough")
+        UserDefaults.standard.set(false, forKey: "hasViewedWalkthrough")
         
         tableView.cellLayoutMarginsFollowReadableWidth = true
         navigationController?.navigationBar.prefersLargeTitles = true
